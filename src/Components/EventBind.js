@@ -13,7 +13,7 @@ class EventBind extends Component{
         }
         // this.clickHandler = this.clickHandler.bind(this)
 
-    }
+    }  
     // clickHandler(){
     //     this.setState({
     //         message: 'Goodbye'

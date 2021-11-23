@@ -11,6 +11,10 @@ import EventBind from './Components/EventBind'
 import ParentComponent from './Components/ParentComponent';
 import UserGreting from './Components/UserGreting';
 import NameList from './Components/NameList';
+import Stylesheets from './Components/Stylesheets';
+import Inline from './Components/Inline';
+import './appStyles.css'
+import styles from './appStyles.module.css'
 
 
 
@@ -18,7 +22,11 @@ class App extends Component {
   render () {
     return (
       <div className="App">
-        <NameList />
+        <h1 className='error'>Error</h1>
+        <h1 className={styles.success}>Success</h1>
+        {/* <Inline /> */}
+        {/* <Stylesheets primary={true} /> */}
+        {/* <NameList /> */}
         {/* <UserGreting /> */}
         {/* <ParentComponent /> */}
         {/* <FunctionClick />

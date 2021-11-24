@@ -1,5 +1,4 @@
 import React from "react";
-
 import './myStyle.css'
 
 function Stylesheets(props) {

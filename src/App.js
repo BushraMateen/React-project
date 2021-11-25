@@ -19,14 +19,15 @@ import Form from './Components/Form'
 import LifecycleA from './Components/LifecycleA';
 import FragmentDemo from './Components/FragmentDemo';
 import Table from './Components/Table';
-
+import RefsDemo from './Components/RefsDemo';
 
 
 class App extends Component {
   render () {
     return (
       <div className="App">
-        <Table />
+        <RefsDemo />
+        {/* <Table /> */}
         {/* <FragmentDemo /> */}
         {/* <LifecycleA /> */}
         {/* <Form /> */}

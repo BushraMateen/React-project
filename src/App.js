@@ -20,13 +20,15 @@ import LifecycleA from './Components/LifecycleA';
 import FragmentDemo from './Components/FragmentDemo';
 import Table from './Components/Table';
 import RefsDemo from './Components/RefsDemo';
+import FocusInput from './Components/FocusInput';
 
 
 class App extends Component {
   render () {
     return (
       <div className="App">
-        <RefsDemo />
+        <FocusInput />
+        {/* <RefsDemo /> */}
         {/* <Table /> */}
         {/* <FragmentDemo /> */}
         {/* <LifecycleA /> */}

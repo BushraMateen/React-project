@@ -21,13 +21,15 @@ import FragmentDemo from './Components/FragmentDemo';
 import Table from './Components/Table';
 import RefsDemo from './Components/RefsDemo';
 import FocusInput from './Components/FocusInput';
+import FRParentInput from './Components/FRParentInput';
 
 
 class App extends Component {
   render () {
     return (
       <div className="App">
-        <FocusInput />
+        <FRParentInput />
+        {/* <FocusInput /> */}
         {/* <RefsDemo /> */}
         {/* <Table /> */}
         {/* <FragmentDemo /> */}
